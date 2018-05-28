@@ -2,7 +2,7 @@
 //sets up random number user is trying to match
 $( document ).ready(function(){
     var Random=Math.floor(Math.random()*101+19)
-    console.log(Random)
+    //console.log(Random)
     $('#number').text(Random);
 
 //	setting up four random numbers array, total variable and printing the wins & losses variables	
@@ -20,7 +20,7 @@ for (var i = 0; i < 4; i++) {
     var num = Math.floor(Math.random()*11+1);
     GeneratedNumbers.push(num);
 }
-console.log(GeneratedNumbers) 
+//console.log(GeneratedNumbers) 
 }
 
 fourRandomNumbers();
@@ -85,7 +85,7 @@ alert ("You lose!!");
 
     $('#three').on ('click', function(){
         total = total + GeneratedNumbers[2];
-        console.log("New total= " + total);
+        //console.log("New total= " + total);
         $('#combined').text(total);
 
 //sets win/lose conditions
@@ -99,7 +99,7 @@ alert ("You lose!!");
 
     $('#four').on ('click', function(){
         total = total + GeneratedNumbers[3];
-        console.log("New total= " + total);
+        //console.log("New total= " + total);
         $('#combined').text(total);	
 
             
