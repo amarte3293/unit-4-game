@@ -1,0 +1,17 @@
+body{
+    background:  linear-gradient(purple, blue) fixed;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.panel-body{
+    background: lightgrey;
+
+}
+.panel-heading{
+    background: darkgrey;
+    border-radius: 5px;
+}
+.panel-title{
+    font: bold;
+    text-align: center;
+}
